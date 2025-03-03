@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "horaire-app",
+    "slug": "horaire-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ddxbar.horaireapp",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Cette application a besoin d'accéder à vos photos pour sélectionner les horaires.",
+        "NSCalendarsUsageDescription": "Cette application a besoin d'accéder à votre calendrier pour ajouter des événements."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ddxbar.horaireapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82ae913f-28ca-4f54-9ede-7f44b45c7ca7"
+      }
+    }
+  }
+}
